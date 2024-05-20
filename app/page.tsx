@@ -1,14 +1,14 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
-
-import Header from "./components/header";import { faGoogle, faInstagram, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import Image from "next/image";
+import Header from "./components/header";
 
 export default function Home() {
   return (
     <>
       <div className="bg-[#773CD2]">
         <Header />
-        <div className="flex flex-row mt-28">
+        <div className="flex flex-row mt-20">
           <div className="text-white ml-[140px]">
             <h1 className="flex font-bold text-2xl w-[400px]">
               Unlock Your Potential with Cutting-Edge Tech Skills and access
@@ -23,10 +23,10 @@ export default function Home() {
               transform into the tech leader you're meant to be.
             </p>
             <div className="flex flex-row">
-              <button className="flex bg-[#FFE722]  h-8 mt-[74px] rounded justify-center text-black font-normal text-base">
+              <button className="flex items-center bg-[#FFE722]  h-8 mt-[74px] rounded justify-center text-black font-normal text-sm">
                 Explore courses
               </button>
-              <button className="flex hover:bg-[#FFE722] justify-center w-[114px] h-8 mt-[74px] rounded ml-[20px] text-black font-normal text-base">
+              <button className="flex items-center bg-[#FFE722] justify-center w-[114px] h-8 mt-[74px] rounded ml-[20px] text-black font-normal text-sm">
                 Watch Video
               </button>
             </div>
@@ -66,15 +66,57 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/* <div className="flex flex-row ml-[140px] mt-28">
-          <img src="/images/1.png" className="mr-4" alt="invision" height={6} width={150} />
-          <img src="/images/2.png" className="mr-4" alt="apple" height="40px" width="50px" />
-          <img src="/images/3.png" className="mr-4" alt="" height={50} width={100} />
-          <img src="/images/4.png" className="mr-4" alt="" height={50} width={100} />
-          <img src="/images/5.png" className="mr-4" alt="" height={50} width={100} />
-          <img src="/images/6.png" className="mr-4" alt="" height={50} width={100} />
-          <img src="/images/7.png" className="mr-4" alt="" height={50} width={100} />
-        </div> */}
+        <div className="flex flex-row ml-[140px] mt-16 justify-center mx-auto mb-auto">
+          <img
+            src="/images/1.svg"
+            className="mr-14"
+            alt="invision"
+            height="15px"
+            width="25px"
+          />
+          <img
+            src="/images/2.svg"
+            className="mr-14"
+            alt="apple"
+            height="20px"
+            width="20px"
+          />
+          <img
+            src="/images/3.svg"
+            className="mr-14"
+            alt="google"
+            height="20px"
+            width="45px"
+          />
+          <img
+            src="/images/4.svg"
+            className="mr-14"
+            alt="meta"
+            height="20px"
+            width="55px"
+          />
+          <img
+            src="/images/5.svg"
+            className="mr-14"
+            alt="logo"
+            height="20px"
+            width="55px"
+          />
+          <img
+            src="/images/6.svg"
+            className="mr-14"
+            alt="ibm"
+            height="20px"
+            width="25px"
+          />
+          <img
+            src="/images/7.svg"
+            className="mr-14"
+            alt="logo"
+            height="20px"
+            width="20px"
+          />
+        </div>
       </div>
     </>
   );

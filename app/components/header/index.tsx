@@ -3,9 +3,9 @@ import React from "react";
 
 export const Header: React.FC = () => {
   return (
-    <div className="ml-[140px] mb-16 gap-4 relative">
+    <div className="ml-[140px] gap-4 relative">
       <div className="flex flex-row cursor-pointer">
-        <div className="flex flex-row mt-10">
+        <div className="flex flex-row mt-8">
           <Image
             className="flex"
             src="/images/vector.png"
@@ -23,7 +23,7 @@ export const Header: React.FC = () => {
           <p className="mr-4">Testimonies</p>
           <p className="mr-4">Blog</p>
           <p>Home</p>
-          <button className="ml-4 flex bg-[#FFE722] rounded justify-center text-black font-normal text-center">
+          <button className="ml-4 items-center flex bg-[#FFE722] rounded justify-center text-black font-normal text-center">
             Contact Us
           </button>
         </div>
