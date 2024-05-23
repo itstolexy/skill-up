@@ -6,6 +6,9 @@ import Header from "./components/header";
 export default function Home() {
   return (
     <main className="mb-6">
+
+      {/* PAGE 1 */}
+
       <div className="bg-[#773CD2]">
         <Header />
         <div className="flex flex-row mt-20">
@@ -118,6 +121,9 @@ export default function Home() {
           />
         </div>
       </div>
+
+      {/* PAGE 2 */}
+
       <div className="mt-10 text-center mx-auto">
         <h2 className="text-center text-[#773cde] font-bold">Top Programs</h2>
         <p className=" font-bold text-lg text-black mt-4">
