@@ -6,7 +6,6 @@ import Header from "./components/header";
 export default function Home() {
   return (
     <main className="mb-6">
-
       {/* PAGE 1 */}
 
       <div className="bg-[#773CD2]">
@@ -279,7 +278,7 @@ export default function Home() {
               Mastering Digital Innovation
             </h3>
             <p className="ml-4 mt-2 text-xs font-light">4.5⭐⭐⭐⭐⭐</p>
-            <p className="ml-4 mt-4 text-xs font-light">
+            <p className="mx-4 mt-4 text-xs font-light">
               Dive deeper into cutting-edge technologies & methodologies to stay
               ahead in today’s digital landscape.
             </p>
@@ -317,7 +316,7 @@ export default function Home() {
             />
             <h3 className="ml-4 mt-4 text-sm font-bold">Mobile UI/UX Design</h3>
             <p className="ml-4 mt-2 text-xs font-light">4.5⭐⭐⭐⭐⭐</p>
-            <p className="ml-4 mt-4 text-xs font-light">
+            <p className="mx-4 mt-4 text-xs font-light">
               Elevate your skills in creating intuitive interfaces & compelling
               user experiences to drive user engagement & satisfaction.
             </p>
@@ -357,7 +356,7 @@ export default function Home() {
               Digital marketing funamentals
             </h3>
             <p className="ml-4 mt-2 text-xs font-light">4.5⭐⭐⭐⭐⭐</p>
-            <p className="ml-4 mt-4 text-xs font-light">
+            <p className="mx-4 mt-4 text-xs font-light">
               Discover the essentials of digital marketing and elevate your
               online presence with our comprehensive fundamentals course.
             </p>
@@ -387,6 +386,234 @@ export default function Home() {
         <button className="text-center items-center justify-center rounded-sm w-36 h-8 bg-[#773cde] text-white text-xs mt-10">
           Explore all courses
         </button>
+      </div>
+
+      {/* PAGE 4 */}
+
+      <div className=" mt-20 text-center mx-auto text-black">
+        <h2 className="text-center text-[#773cde] font-bold">Why Choose Us?</h2>
+        <p className=" font-bold text-lg text-black mt-6 mx-auto w-[390px]">
+          From cutting-edge courses to expert-led instructions, empower yourself
+          at <span className="text-[#773CD2]">Skill Up</span>
+        </p>
+        <div className="flex flex-row mt-6">
+          <div className="">
+            <div className="ml-[140px] flex flex-row">
+              <img
+                className=""
+                src="/images/expert.svg"
+                alt="ui"
+                height="16px"
+                width="16px"
+              />
+              <span className="text-left mt-14 ml-2">
+                <h3 className="text-sm font-bold">Expert Instructors</h3>
+                <p className="mt-2 text-xs w-64">
+                  Learn from industry professionals and leading experts wth
+                  hands-on experience in the latest technologies and trends
+                </p>
+              </span>
+            </div>
+            <div className="ml-[140px] flex flex-row">
+              <img
+                className=""
+                src="/images/drivers.svg"
+                alt="ui"
+                height="16px"
+                width="16px"
+              />
+              <span className="text-left mt-14 ml-2">
+                <h3 className="text-sm font-bold">Divers Course Catalog</h3>
+                <p className="mt-2 text-xs w-64">
+                  Explore a wide range of courses covering everything from
+                  programming languages and software development to
+                  cybersecurity, etc.
+                </p>
+              </span>
+            </div>
+            <div className="ml-[140px] flex flex-row">
+              <img
+                className=""
+                src="/images/career.svg"
+                alt="ui"
+                height="16px"
+                width="16px"
+              />
+              <span className="text-left mt-14 ml-2">
+                <h3 className="text-sm font-bold">
+                  Career Advancement Support
+                </h3>
+                <p className="mt-2 text-xs w-64">
+                  Access career resources, job placement assistance, and
+                  networking opportunities to help you succeed in your tech
+                  careerjourney
+                </p>
+              </span>
+            </div>
+          </div>
+
+          {/* row */}
+
+          <div className="mx-auto">
+            <div className="flex flex-row">
+              <img
+                className=""
+                src="/images/flexible.svg"
+                alt="ui"
+                height="16px"
+                width="16px"
+              />
+              <span className="text-left mt-14 ml-2">
+                <h3 className="text-sm font-bold">Flexible Learning Options</h3>
+                <p className="mt-2 text-xs w-64">
+                  From self-paced courses, live online classes, and personalized
+                  learning paths to fit your schedule and learning preferences
+                </p>
+              </span>
+            </div>
+            <div className="flex flex-row">
+              <img
+                className=""
+                src="/images/interactive.svg"
+                alt="ui"
+                height="16px"
+                width="16px"
+              />
+              <span className="text-left mt-14 ml-2">
+                <h3 className="text-sm font-bold">Interactive Learning</h3>
+                <p className="mt-2 text-xs w-64">
+                  Engage with interactive lessons, practical exercises. and
+                  real-world projects to reinforce your understanding and skills
+                </p>
+              </span>
+            </div>
+            <div className="flex flex-row">
+              <img
+                className=""
+                src="/images/online.svg"
+                alt="ui"
+                height="16px"
+                width="16px"
+              />
+              <span className="text-left mt-14 ml-2">
+                <h3 className="text-sm font-bold">Online Community</h3>
+                <p className="mt-2 text-xs w-64">
+                  Learn from industry professionals and leading experts wth
+                  hands-on experience in the latest technologies and trends
+                </p>
+              </span>
+            </div>
+          </div>
+
+          <div className="mt-10 mx-auto">
+            <img
+              className=""
+              src="/images/choose.svg"
+              alt="ui"
+              height="380px"
+              width="380px"
+            />
+          </div>
+        </div>
+        <button className="text-center items-center justify-center rounded-sm w-36 h-8 bg-[#773cde] text-white text-xs mt-10">
+          Get Started
+        </button>
+      </div>
+
+      {/* PAGE 5 */}
+      <div className="mt-20 bg-[#773CD2]">
+        <div className="text-center text-white">
+          <h2 className="text-center font-bold text-xs">Our Instructors</h2>
+          <p className=" font-bold text-base mt-4">
+            Meet our Team of Expert Instructors
+          </p>
+        </div>
+        <div className="flex flex-row">
+          <div className="border border-[#FFE722] text-black bg-white rounded-sm ml-[140px] w-[200px] mt-14">
+            <img
+              className=""
+              src="/images/suzan.svg"
+              alt="p3"
+              height="200px"
+              width="200px"
+            />
+            <h3 className="ml-4 mt-4 text-sm font-bold">Suzy Daniels</h3>
+            <p className="ml-4 mt-2 text-xs font-light">
+              Senior Marketing Manager
+            </p>
+            <p className="mx-4 mt-2 text-xs font-light">Years of Exp. 10</p>
+            <img
+              className=""
+              src="/images/facebook.svg"
+              alt="p3"
+              height="24px"
+              width="24px"
+            />
+          </div>
+          <div className="border border-[#FFE722] text-black bg-white rounded-sm mx-auto w-[200px] mt-14">
+            <img
+              className=""
+              src="/images/james.svg"
+              alt="p3"
+              height="200px"
+              width="200px"
+            />
+            <h3 className="ml-4 mt-4 text-sm font-bold">James W. M</h3>
+            <p className="ml-4 mt-2 text-xs font-light">
+              Senior Marketing Manager
+            </p>
+            <p className="mx-4 mt-2 text-xs font-light">Years of Exp. 10</p>
+            <img
+              className=""
+              src="/images/facebook.svg"
+              alt="p3"
+              height="24px"
+              width="24px"
+            />
+          </div>
+          <div className="border border-[#FFE722] text-black bg-white rounded-sm mx-auto w-[200px] mt-14">
+            <img
+              className=""
+              src="/images/robert.svg"
+              alt="p3"
+              height="200px"
+              width="200px"
+            />
+            <h3 className="ml-4 mt-4 text-sm font-bold">Robert Fox</h3>
+            <p className="ml-4 mt-2 text-xs font-light">
+              Software Developer
+            </p>
+            <p className="mx-4 mt-2 text-xs font-light">Years of Exp. 15</p>
+            <img
+              className=""
+              src="/images/facebook.svg"
+              alt="p3"
+              height="24px"
+              width="24px"
+            />
+          </div>
+          <div className="border border-[#FFE722] text-black bg-white rounded-sm mx-auto w-[200px] mt-14">
+            <img
+              className=""
+              src="/images/bolanle.svg"
+              alt="p3"
+              height="200px"
+              width="200px"
+            />
+            <h3 className="ml-4 mt-4 text-sm font-bold">Bolanle Adams</h3>
+            <p className="ml-4 mt-2 text-xs font-light">
+              Senior UX Strategist
+            </p>
+            <p className="mx-4 mt-2 text-xs font-light">Years of Exp. 5</p>
+            <img
+              className=""
+              src="/images/facebook.svg"
+              alt="p3"
+              height="24px"
+              width="24px"
+            />
+          </div>
+        </div>
       </div>
     </main>
   );
