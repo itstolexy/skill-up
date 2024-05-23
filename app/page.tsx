@@ -67,7 +67,6 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-row ml-[140px] mt-16 justify-center mx-auto">
-          
           <img
             src="/images/1.svg"
             className="mr-14 mb-10"
@@ -195,9 +194,12 @@ export default function Home() {
               width="16px"
             />
             <span className="text-left">
-              <h3 className="ml-4 mt-4 text-sm font-bold">AI & Machine Learning</h3>
+              <h3 className="ml-4 mt-4 text-sm font-bold">
+                AI & Machine Learning
+              </h3>
               <p className="ml-4 mt-4 text-xs">
-              Unleash the power of AI & Machine learning with our expert-led courses
+                Unleash the power of AI & Machine learning with our expert-led
+                courses
               </p>
               <p className="text-[#773CDE] text-xs ml-4 my-4">
                 Learn more &gt;{" "}
@@ -213,11 +215,9 @@ export default function Home() {
               width="16px"
             />
             <span className="text-left">
-              <h3 className="ml-4 mt-4 text-sm font-bold">
-                Digital Marketing
-              </h3>
+              <h3 className="ml-4 mt-4 text-sm font-bold">Digital Marketing</h3>
               <p className="ml-4 mt-4 text-xs">
-              Dominate the digital landscape with our comprehensive courses.
+                Dominate the digital landscape with our comprehensive courses.
               </p>
               <p className="text-[#773CDE] text-xs ml-4 my-4">
                 Learn more &gt;{" "}
@@ -233,7 +233,9 @@ export default function Home() {
               width="16px"
             />
             <span className="text-left">
-              <h3 className="ml-4 mt-4 text-sm font-bold">Internet of Things (IoT)</h3>
+              <h3 className="ml-4 mt-4 text-sm font-bold">
+                Internet of Things (IoT)
+              </h3>
               <p className="ml-4 mt-4 text-xs">
                 Enter the realm of IoT innovation with our cutting-edge courses.
               </p>
@@ -243,12 +245,14 @@ export default function Home() {
             </span>
           </div>
         </div>
-        <button className="text-center items-center justify-center rounded-sm w-36 h-8 bg-[#773cde] text-white text-xs mt-10">Explore all courses</button>
+        <button className="text-center items-center justify-center rounded-sm w-36 h-8 bg-[#773cde] text-white text-xs mt-10">
+          Explore all courses
+        </button>
       </div>
 
-       {/* PAGE 3 */}
+      {/* PAGE 3 */}
 
-       <div className=" mt-20 text-center mx-auto">
+      <div className=" mt-20 text-center mx-auto">
         <h2 className="text-center text-[#773cde] font-bold">
           Popular Courses
         </h2>
@@ -265,7 +269,9 @@ export default function Home() {
               height="200px"
               width="200px"
             />
-            <h3 className="ml-4 mt-4 text-sm font-bold">Mastering Digital Innovation</h3>
+            <h3 className="ml-4 mt-4 text-sm font-bold">
+              Mastering Digital Innovation
+            </h3>
             <p className="ml-4 mt-2 text-xs font-light">4.5⭐⭐⭐⭐⭐</p>
             <p className="ml-4 mt-4 text-xs font-light">
               Dive deeper into cutting-edge technologies & methodologies to stay
@@ -376,7 +382,6 @@ export default function Home() {
           Explore all courses
         </button>
       </div>
-
     </main>
   );
 }
