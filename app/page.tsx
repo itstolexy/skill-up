@@ -245,6 +245,138 @@ export default function Home() {
         </div>
         <button className="text-center items-center justify-center rounded-sm w-36 h-8 bg-[#773cde] text-white text-xs mt-10">Explore all courses</button>
       </div>
+
+       {/* PAGE 3 */}
+
+       <div className=" mt-20 text-center mx-auto">
+        <h2 className="text-center text-[#773cde] font-bold">
+          Popular Courses
+        </h2>
+        <p className=" font-bold text-lg text-black mt-6 mx-auto w-[390px]">
+          Access top-quality courses at unbeatable prices, taught by elite
+          tutors from across the globe{" "}
+        </p>
+        <div className="mt-14 flex flex-row text-black text-left">
+          <div className="border border-[#773CD2] w-[250px] ml-[140px]">
+            <img
+              className="mx-auto mt-4"
+              src="/images/p1.svg"
+              alt="p1"
+              height="200px"
+              width="200px"
+            />
+            <h3 className="ml-4 mt-4 text-sm font-bold">Mastering Digital Innovation</h3>
+            <p className="ml-4 mt-2 text-xs font-light">4.5⭐⭐⭐⭐⭐</p>
+            <p className="ml-4 mt-4 text-xs font-light">
+              Dive deeper into cutting-edge technologies & methodologies to stay
+              ahead in today’s digital landscape.
+            </p>
+            <div className="flex flex-row">
+              <img
+                className="flex ml-4 mt-4"
+                src="/images/t.svg"
+                alt="t"
+                height="40px"
+                width="40px"
+              />
+              <span className="">
+                <h3 className="ml-4 mt-4 text-xs font-bold">
+                  Odusanya Omotola
+                </h3>
+                <p className="ml-4 mt-1 text-xs font-extralight">
+                  Senior Software Developer
+                </p>
+              </span>
+            </div>
+            <div className="flex flex-row my-4">
+              <button className="flex ml-4 text-center items-center justify-center rounded-sm w-16 h-6 bg-[#773cde] text-white text-xs">
+                Enroll
+              </button>
+              <p className="flex font-bold ml-20">$120.00</p>
+            </div>
+          </div>
+          <div className="border border-[#773CD2] w-[250px] ml-[140px]">
+            <img
+              className="mx-auto mt-4"
+              src="/images/p2.svg"
+              alt="p1"
+              height="200px"
+              width="200px"
+            />
+            <h3 className="ml-4 mt-4 text-sm font-bold">Mobile UI/UX Design</h3>
+            <p className="ml-4 mt-2 text-xs font-light">4.5⭐⭐⭐⭐⭐</p>
+            <p className="ml-4 mt-4 text-xs font-light">
+              Elevate your skills in creating intuitive interfaces & compelling
+              user experiences to drive user engagement & satisfaction.
+            </p>
+            <div className="flex flex-row">
+              <img
+                className="flex ml-4 mt-4"
+                src="/images/e.svg"
+                alt="e"
+                height="40px"
+                width="40px"
+              />
+              <span className="">
+                <h3 className="ml-4 mt-4 text-xs font-bold">
+                  Obinyere Joachim
+                </h3>
+                <p className="ml-4 mt-1 text-xs font-extralight">
+                  Senior Product Designer
+                </p>
+              </span>
+            </div>
+            <div className="flex flex-row my-4">
+              <button className="flex ml-4 text-center items-center justify-center rounded-sm w-16 h-6 bg-[#773cde] text-white text-xs">
+                Enroll
+              </button>
+              <p className="flex font-bold ml-20">$70.00</p>
+            </div>
+          </div>
+          <div className="border border-[#773CD2] w-[250px] ml-[140px]">
+            <img
+              className="mx-auto mt-4"
+              src="/images/p3.svg"
+              alt="p3"
+              height="200px"
+              width="200px"
+            />
+            <h3 className="ml-4 mt-4 text-sm font-bold">
+              Digital marketing funamentals
+            </h3>
+            <p className="ml-4 mt-2 text-xs font-light">4.5⭐⭐⭐⭐⭐</p>
+            <p className="ml-4 mt-4 text-xs font-light">
+              Discover the essentials of digital marketing and elevate your
+              online presence with our comprehensive fundamentals course.
+            </p>
+            <div className="flex flex-row">
+              <img
+                className="flex ml-4 mt-4"
+                src="/images/s.svg"
+                alt="t"
+                height="40px"
+                width="40px"
+              />
+              <span className="">
+                <h3 className="ml-4 mt-4 text-xs font-bold">Suzy Daniels</h3>
+                <p className="ml-4 mt-1 text-xs font-extralight">
+                  Senior Marketing Manager
+                </p>
+              </span>
+            </div>
+            <div className="flex flex-row my-4">
+              <button className="flex ml-4 text-center items-center justify-center rounded-sm w-16 h-6 bg-[#773cde] text-white text-xs">
+                Enroll
+              </button>
+              <p className="flex font-bold ml-20">$50.00</p>
+            </div>
+          </div>
+        </div>
+        <button className="text-center items-center justify-center rounded-sm w-36 h-8 bg-[#773cde] text-white text-xs mt-10">
+          Explore all courses
+        </button>
+      </div>
+
     </main>
   );
 }
