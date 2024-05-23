@@ -23,7 +23,7 @@ export const Header: React.FC = () => {
           <p className="mr-4">Testimonies</p>
           <p className="mr-4">Blog</p>
           <p>Home</p>
-          <button className="ml-4 items-center flex bg-[#FFE722] rounded justify-center text-black font-normal text-center">
+          <button className="ml-4 items-center flex bg-[#FFE722] h-6 w-20 rounded justify-center text-black font-normal text-center">
             Contact Us
           </button>
         </div>
