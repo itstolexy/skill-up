@@ -3,7 +3,7 @@ import React from "react";
 
 export const Header: React.FC = () => {
   return (
-    <div className="ml-[140px] gap-4 relative">
+    <div className="ml-[90px] gap-4 relative">
       <div className="flex flex-row cursor-pointer">
         <div className="flex flex-row mt-8">
           <Image
