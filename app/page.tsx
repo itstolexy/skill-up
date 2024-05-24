@@ -2,6 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import Header from "./components/header";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -801,6 +802,7 @@ export default function Home() {
           Explore all articles
         </button>
       </div>
+      <Footer />
     </main>
   );
 }
