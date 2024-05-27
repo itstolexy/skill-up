@@ -27,8 +27,28 @@ function Footer() {
           </p>
 
           {/* FORM */}
-
-          <p className="text-xs font-light mt-6 w-72">
+          <div className="my-2">
+            <form
+              action="https://formspree.io/f/odusanyaomotola64@gmail.com"
+              method="post"
+            >
+              <input
+                className="text-sm rounded border"
+                type="text"
+                id="email"
+                name="email"
+                value=""
+                placeholder="enter your email"
+                required
+              />
+              <input
+                className="bg-[#773CD2] border text-sm rounded text-center items-center w-20 cursor-pointer h-auto"
+                type="submit"
+                value="Join now"
+              />
+            </form>
+          </div>
+          <p className="text-xs font-light mt-2 w-72">
             By subscribing you agree to our <u> Privacy Policy </u> and provide
             consent receive updates from our company
           </p>
@@ -61,7 +81,9 @@ function Footer() {
         {/* THIRD */}
 
         <div className="font-light mt-10 mx-auto">
-          <p id="contact" className="text-base">Contact Us</p>
+          <p id="contact" className="text-base">
+            Contact Us
+          </p>
 
           <div className="flex flex-row mt-10 mx-auto">
             <Image
