@@ -4,6 +4,7 @@ import React from "react";
 
 function Footer() {
   return (
+    <>
     <div className="bg-[#773cd2]">
       <div className="mx-auto flex flex-row">
         <div className="text-white mx-auto">
@@ -135,7 +136,12 @@ function Footer() {
           </div>
         </div>
       </div>
+
     </div>
+      <span className="text-sm font-light text-[#773CD2] ml-auto flex items-center justify-center">
+        &copy; 2024 Omotola Odusanya 
+      </span>
+    </>
   );
 }
 
