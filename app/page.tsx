@@ -3,19 +3,21 @@
 import Image from "next/image";
 import Header from "./components/header";
 import Footer from "./components/footer";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="mb-6">
+    <main className="">
       {/* PAGE 1 */}
 
       <div className="bg-[#773CD2]">
         <Header />
         <div className="flex flex-row mt-20">
           <div className="text-white mx-auto">
-            <h1 className="flex font-bold text-2xl w-[400px]">
-              Unlock Your Potential with Cutting-Edge Tech Skills and access
-              global opportunities
+            <h1 className="font-bold text-2xl w-[400px]">
+              Unlock Your Potential with{" "}
+              <span className="text-[#FFE722]">Cutting-Edge Tech Skills </span>{" "}
+              and access global opportunities
             </h1>
             <p className="font-normal text-sm mt-10 w-[400px]">
               Empower your future with our comprehensive tech skill learning
@@ -26,9 +28,11 @@ export default function Home() {
               transform into the tech leader you're meant to be.
             </p>
             <div className="flex flex-row">
-              <button className="flex items-center bg-[#FFE722] w-32 h-8 mt-[74px] rounded justify-center text-black font-normal text-sm">
-                Explore courses
-              </button>
+              <Link href="#courses">
+                <button className="flex items-center bg-[#FFE722] w-32 h-8 mt-[74px] rounded justify-center text-black font-normal text-sm">
+                  Explore courses
+                </button>
+              </Link>
               <button className="flex items-center border border-black hover:bg-[#FFE722] border-solid justify-center w-32 h-8 mt-[74px] rounded ml-[20px] text-black font-normal text-sm">
                 Watch Video
               </button>
@@ -69,26 +73,26 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row mt-16 justify-center mx-auto">
+        <div id="slide" className="flex flex-row mt-20 justify-center mx-auto">
           <img
             src="/images/1.svg"
             className="mr-14 mb-10"
             alt="invision"
-            height="15px"
-            width="25px"
+            height="10px"
+            width="10px"
           />
           <img
             src="/images/2.svg"
             className="mr-14 mb-10"
             alt="apple"
-            height="20px"
-            width="20px"
+            height="10px"
+            width="10px"
           />
           <img
             src="/images/3.svg"
             className="mr-14 mb-10"
             alt="google"
-            height="20px"
+            height="30px"
             width="45px"
           />
           <img
@@ -101,8 +105,8 @@ export default function Home() {
           <img
             src="/images/5.svg"
             className="mr-14 mb-10"
-            alt="logo"
-            height="20px"
+            alt="microsoft"
+            height="40px"
             width="55px"
           />
           <img
@@ -116,8 +120,8 @@ export default function Home() {
             src="/images/7.svg"
             className="mr-14 mb-10"
             alt="logo"
-            height="20px"
-            width="20px"
+            height="10px"
+            width="10px"
           />
         </div>
       </div>
@@ -258,7 +262,7 @@ export default function Home() {
 
       {/* PAGE 3 */}
 
-      <div className=" mt-20 text-center mx-auto">
+      <div id="courses" className=" mt-20 text-center mx-auto">
         <h2 className="text-center text-[#773cde] font-bold">
           Popular Courses
         </h2>
@@ -391,7 +395,7 @@ export default function Home() {
 
       {/* PAGE 4 */}
 
-      <div className=" mt-20 text-center mx-auto text-black">
+      <div id="about" className=" mt-20 text-center mx-auto text-black">
         <h2 className="text-center text-[#773cde] font-bold">Why Choose Us?</h2>
         <p className=" font-bold text-lg text-black mt-6 mx-auto w-[390px]">
           From cutting-edge courses to expert-led instructions, empower yourself
@@ -625,7 +629,7 @@ export default function Home() {
 
       {/* PAGE 6 */}
 
-      <div className="mt-10 text-center mx-auto">
+      <div id="testimonies" className="mt-10 text-center mx-auto">
         <h2 className="text-center text-[#773cde] font-bold">Testimonies</h2>
         <p className=" font-bold text-lg text-black mt-6 w-[390px] mx-auto">
           Listen to the success stories straight from our vibrant community of
@@ -729,9 +733,9 @@ export default function Home() {
 
       {/* PAGE 8 */}
 
-      <div className=" mt-20 text-center mx-auto text-black">
+      <div id="blog" className="mt-20 text-center mx-auto text-black">
         <h2 className="text-center text-[#773cde] font-bold">Blog</h2>
-        <p className=" font-bold text-lg text-black mt-6 mx-auto w-[390px]">
+        <p className="font-bold text-lg text-black mt-6 mx-auto w-[390px]">
           Stay ahead of the curve. Great insights, tips and tutorials from our
           blog
         </p>

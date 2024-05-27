@@ -25,3 +25,25 @@ body {
     text-wrap: balance;
   }
 }
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+#slide {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  animation: slide 30s linear infinite;
+}
+
+#slide img {
+  flex-shrink: 0;
+  width: auto;
+  object-fit: contain;
+}
