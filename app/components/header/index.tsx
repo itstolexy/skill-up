@@ -4,7 +4,7 @@ import React from "react";
 
 export const Header: React.FC = () => {
   return (
-    <div className="ml-[90px] gap-4 relative">
+    <div className="lg:ml-[90px] ml-5 gap-4 relative">
       <div className="flex flex-row cursor-pointer">
         <Link href="/">
           <div className="flex flex-row mt-8">
@@ -21,7 +21,7 @@ export const Header: React.FC = () => {
           </div>
         </Link>
 
-        <div className="flex text-white text-sm mt-12 justify-end mx-auto mr-[140px]">
+        <div className="hidden lg:flex flex-row text-white text-sm mt-12 justify-end mx-auto mr-[140px]">
           <Link href="/">
             <p className="mr-4">Home</p>
           </Link>

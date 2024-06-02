@@ -12,14 +12,14 @@ export default function Home() {
 
       <div className="bg-[#773CD2]">
         <Header />
-        <div className="flex flex-row mt-20">
-          <div className="text-white mx-auto">
-            <h1 className="font-bold text-2xl w-[400px]">
+        <div className="lg:flex lg:flex-row mt-20">
+          <div className="text-white lg:mx-auto mx-5">
+            <h1 className="font-bold text-2xl lg:w-[400px]">
               Unlock Your Potential with{" "}
               <span className="text-[#FFE722]">Cutting-Edge Tech Skills </span>{" "}
               and access global opportunities
             </h1>
-            <p className="font-normal text-sm mt-10 w-[400px]">
+            <p className="font-normal text-sm mt-10 lg:w-[400px]">
               Empower your future with our comprehensive tech skill learning
               platform. From programming languages to data science, web and app
               design to cloud computing, we've got you covered. Dive into
@@ -27,53 +27,49 @@ export default function Home() {
               paths curated by industry experts. Start your journey today and
               transform into the tech leader you're meant to be.
             </p>
-            <div className="flex flex-row">
+            <div className="lg:flex lg:flex-row">
               <Link href="#courses">
-                <button className="flex items-center bg-[#FFE722] w-32 h-8 mt-[74px] rounded justify-center text-black font-normal text-sm">
+                <button className="flex items-center bg-[#FFE722] lg:w-32 sm:w-full h-8 lg:mt-[74px] mt-10 rounded justify-center text-black font-normal text-sm sm:mx-auto">
                   Explore courses
                 </button>
               </Link>
-              <button className="flex items-center border border-black hover:bg-[#FFE722] border-solid justify-center w-32 h-8 mt-[74px] rounded ml-[20px] text-black font-normal text-sm">
+              <button className="flex items-center border border-black hover:bg-[#FFE722] border-solid sm:mx-auto justify-center sm:w-full lg:w-32 h-8 mt-10 lg:mt-[74px] rounded lg:ml-[20px] text-black font-normal text-sm sm:mt-10">
                 Watch Video
               </button>
             </div>
           </div>
-          <div className="flex mx-auto">
-            <div className="flex flex-col ml-[125px]">
+          <div className="flex flex-row mx-auto sm:py-10">
+            <div className="flex flex-col mx-auto lg:ml-[125px]">
               <img
-                className="flex mr-7"
+                className="flex mr-7 lg:h-[200px] lg:w-[200px] sm:h-[100px] sm:w-[100px]"
                 src="/images/img1.png"
                 alt="image1"
-                height={200}
-                width={200}
               />
               <img
-                className="flex mt-3"
+                className="flex mt-3 lg:h-[200px] lg:w-[200px] sm:h-[100px] sm:w-[100px]"
                 src="/images/img3.png"
                 alt="image1"
-                height={200}
-                width={200}
+                
               />
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col mx-auto">
               <img
-                className="flex mt-2"
+                className="flex mt-2 lg:h-[200px] lg:w-[200px] sm:h-[100px] sm:w-[100px]"
                 src="/images/img2.png"
                 alt="image1"
-                height={200}
-                width={200}
+                
               />
               <img
-                className="flex mt-4"
+                className="flex mt-4 lg:h-[200px] lg:w-[200px] sm:h-[100px] sm:w-[100px]"
                 src="/images/img4.png"
                 alt="image1"
-                height={200}
-                width={200}
+              
               />
             </div>
           </div>
         </div>
-        <div id="slide" className="flex flex-row mt-20 justify-center mx-auto">
+        <div id="slide" className="flex sm:flex-col lg:flex-row lg:mt-20 justify-center mx-auto">
+          <div className="flex flex-row">
           <img
             src="/images/1.svg"
             className="mr-14 mb-10"
@@ -101,7 +97,9 @@ export default function Home() {
             alt="meta"
             height="20px"
             width="55px"
-          />
+            />
+            </div>
+          <div className="flex flex-row">
           <img
             src="/images/5.svg"
             className="mr-14 mb-10"
@@ -123,6 +121,7 @@ export default function Home() {
             height="10px"
             width="10px"
           />
+          </div>
         </div>
       </div>
 
