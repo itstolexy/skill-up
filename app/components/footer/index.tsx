@@ -6,10 +6,10 @@ function Footer() {
   return (
     <>
       <div className="bg-[#773cd2]">
-        <div className="lg:mx-auto lg:flex lg:flex-row ml-5">
+        <div className="lg:mx-auto lg:flex lg:flex-row mx-5">
           <div className="text-white mx-auto">
             <Link href="/">
-              <div className="flex flex-row pt-10  lg:mx-auto">
+              <div className="flex flex-row pt-10 lg:mx-auto">
                 <Image
                   className=""
                   src="/images/foot.svg"
@@ -22,7 +22,7 @@ function Footer() {
                 </h1>
               </div>
             </Link>
-            <p className="text-xs font-light sm:mt-10 lg:mt-6 lg:w-72 sm:w-full">
+            <p className="text-xs font-light sm:mt-10 lg:mt-6 mt-2 lg:w-72 sm:w-full">
               Join our news letter and stay up to date with news, update and
               latest infos.
             </p>
@@ -109,31 +109,31 @@ function Footer() {
               </h1>
             </div>
             <div className="hidden lg:flex flex-col mt-10 pb-16">
-            <p className="text-base font-light">Socials</p>
-            <div className="flex flex-row mt-2">
-              <Image
-                className=""
-                src="/images/phone.jpg"
-                alt="phone"
-                width={24}
-                height={2}
-              />
-              <Image
-                className="ml-2"
-                src="/images/phone.jpg"
-                alt="phone"
-                width={24}
-                height={2}
-              />
-              <Image
-                className="ml-2"
-                src="/images/phone.jpg"
-                alt="phone"
-                width={24}
-                height={2}
-              />
+              <p className="text-base font-light">Socials</p>
+              <div className="flex flex-row mt-2">
+                <Image
+                  className=""
+                  src="/images/phone.jpg"
+                  alt="phone"
+                  width={24}
+                  height={2}
+                />
+                <Image
+                  className="ml-2"
+                  src="/images/phone.jpg"
+                  alt="phone"
+                  width={24}
+                  height={2}
+                />
+                <Image
+                  className="ml-2"
+                  src="/images/phone.jpg"
+                  alt="phone"
+                  width={24}
+                  height={2}
+                />
+              </div>
             </div>
-          </div>
           </div>
         </div>
         <div className="flex justify-end mr-5 lg:hidden">

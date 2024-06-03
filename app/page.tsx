@@ -27,18 +27,18 @@ export default function Home() {
               paths curated by industry experts. Start your journey today and
               transform into the tech leader you're meant to be.
             </p>
-            <div className="lg:flex lg:flex-row">
+            <div className="lg:flex flex-row">
               <Link href="#courses">
-                <button className="flex items-center bg-[#FFE722] lg:w-32 sm:w-full h-8 lg:mt-[74px] mt-10 rounded justify-center text-black font-normal text-sm sm:mx-auto">
+                <button className="flex items-center bg-[#FFE722] lg:w-32 w-full h-8 lg:mt-[74px] mt-10 rounded justify-center text-black font-normal text-sm sm:mx-auto">
                   Explore courses
                 </button>
               </Link>
-              <button className="flex items-center border border-black hover:bg-[#FFE722] border-solid sm:mx-auto justify-center sm:w-full lg:w-32 h-8 mt-10 lg:mt-[74px] rounded lg:ml-[20px] text-black font-normal text-sm sm:mt-10">
+              <button className="flex items-center border border-black hover:bg-[#FFE722] border-solid sm:mx-auto justify-center w-full lg:w-32 h-8 mt-5 mb-5 lg:mt-[74px] rounded lg:ml-[20px] text-black font-normal text-sm sm:mt-10">
                 Watch Video
               </button>
             </div>
           </div>
-          <div className="flex flex-row mx-auto sm:py-10">
+          <div className="flex flex-row mx-auto">
             <div className="flex flex-col mx-auto lg:ml-[125px]">
               <img
                 className="flex mr-7 lg:h-[200px] lg:w-[200px] sm:h-[100px] sm:w-[100px]"
@@ -68,7 +68,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div id="slide" className="flex sm:flex-col lg:flex-row lg:mt-20 justify-center mx-auto">
+        <div id="slide" className="flex flex-col lg:flex-row lg:mt-20 mt-10 mx-auto">
           <div className="flex flex-row">
           <img
             src="/images/1.svg"
@@ -129,12 +129,12 @@ export default function Home() {
 
       <div className="mt-10 text-center mx-auto">
         <h2 className="text-center text-[#773cde] font-bold">Top Programs</h2>
-        <p className=" font-bold text-lg text-black mt-6">
+        <p className=" font-bold text-lg text-black mt-6 mx-20">
           Explore our top programs to expand our career opportunities
         </p>
 
-        <div className="text-black mt-14 flex flex-row">
-          <div className="border border-[#773CD2] w-[250px] mx-auto">
+        <div className="text-black mt-14 lg:flex lg:flex-row">
+          <div className="border border-[#773CD2] mt-5 w-[250px] mx-auto">
             <img
               className="ml-4 mt-4"
               src="/images/ui.svg"
@@ -152,7 +152,7 @@ export default function Home() {
               </p>
             </span>
           </div>
-          <div className="border border-[#773CD2] w-[250px] mx-auto">
+          <div className="border border-[#773CD2] w-[250px] mt-5 mx-auto">
             <img
               className="ml-4 mt-4"
               src="/images/mad.svg"
@@ -173,7 +173,7 @@ export default function Home() {
               </p>
             </span>
           </div>
-          <div className="border border-[#773CD2] w-[250px] mx-auto">
+          <div className="border border-[#773CD2] mt-5 w-[250px] mx-auto">
             <img
               className="ml-4 mt-4"
               src="/images/vid.svg"
@@ -182,7 +182,7 @@ export default function Home() {
               width="16px"
             />
             <span className="text-left">
-              <h3 className="ml-4 mt-4 text-sm font-bold">Videography</h3>
+              <h3 className="ml-4 lg:mt-4 mt-5 text-sm font-bold">Videography</h3>
               <p className="ml-4 mt-4 text-xs">
                 Cutting-edge videography lessons embracing the latest
                 development
@@ -193,8 +193,8 @@ export default function Home() {
             </span>
           </div>
         </div>
-        <div className="text-black mt-10 flex flex-row">
-          <div className="border border-[#773CD2] w-[250px] mx-auto">
+        <div className="text-black lg:mt-10 mt-5 lg:flex lg:flex-row">
+          <div className="border border-[#773CD2] mt-5 w-[250px] mx-auto">
             <img
               className="ml-4 mt-4"
               src="/images/ai.svg"
@@ -203,7 +203,7 @@ export default function Home() {
               width="16px"
             />
             <span className="text-left">
-              <h3 className="ml-4 mt-4 text-sm font-bold">
+              <h3 className="ml-4 mt-5 text-sm font-bold">
                 AI & Machine Learning
               </h3>
               <p className="ml-4 mt-4 text-xs">
@@ -215,7 +215,7 @@ export default function Home() {
               </p>
             </span>
           </div>
-          <div className="border border-[#773CD2] w-[250px] mx-auto">
+          <div className="border border-[#773CD2] w-[250px] mx-auto mt-5">
             <img
               className="ml-4 mt-4"
               src="/images/mar.svg"
@@ -233,7 +233,7 @@ export default function Home() {
               </p>
             </span>
           </div>
-          <div className="border border-[#773CD2] w-[250px] mx-auto">
+          <div className="border border-[#773CD2] w-[250px] mt-5 mx-auto">
             <img
               className="ml-4 mt-4"
               src="/images/iot.svg"
@@ -265,12 +265,12 @@ export default function Home() {
         <h2 className="text-center text-[#773cde] font-bold">
           Popular Courses
         </h2>
-        <p className=" font-bold text-lg text-black mt-6 mx-auto w-[390px]">
+        <p className=" font-bold text-lg text-black mt-6 lg:mx-auto mx-20 lg:w-[390px]">
           Access top-quality courses at unbeatable prices, taught by elite
           tutors from across the globe{" "}
         </p>
-        <div className="mt-14 flex flex-row text-black text-left">
-          <div className="border border-[#773CD2] w-[250px] mx-auto">
+        <div className="mt-14 lg:flex lg:flex-row text-black text-left">
+          <div className="border border-[#773CD2] mt-5 w-[250px] mx-auto">
             <img
               className="mx-auto mt-4"
               src="/images/p1.svg"
@@ -310,7 +310,7 @@ export default function Home() {
               <p className="flex font-bold ml-20">$120.00</p>
             </div>
           </div>
-          <div className="border border-[#773CD2] w-[250px] mx-auto">
+          <div className="border border-[#773CD2] w-[250px] mx-auto mt-5">
             <img
               className="mx-auto mt-4"
               src="/images/p2.svg"
@@ -348,7 +348,7 @@ export default function Home() {
               <p className="flex font-bold ml-20">$70.00</p>
             </div>
           </div>
-          <div className="border border-[#773CD2] w-[250px] mx-auto">
+          <div className="border border-[#773CD2] w-[250px] mx-auto mt-5">
             <img
               className="mx-auto mt-4"
               src="/images/p3.svg"
@@ -396,13 +396,13 @@ export default function Home() {
 
       <div id="about" className=" mt-20 text-center mx-auto text-black">
         <h2 className="text-center text-[#773cde] font-bold">Why Choose Us?</h2>
-        <p className=" font-bold text-lg text-black mt-6 mx-auto w-[390px]">
+        <p className=" font-bold text-lg text-black mt-5 lg:mx-auto mx-20 lg:w-[390px]">
           From cutting-edge courses to expert-led instructions, empower yourself
           at <span className="text-[#773CD2]">Skill Up</span>
         </p>
-        <div className="flex flex-row mt-6">
+        <div className="lg:flex lg:flex-row mt-5">
           <div className="mx-auto">
-            <div className="mx-auto flex flex-row">
+            <div className="mx-auto flex flex-row justify-center">
               <img
                 className=""
                 src="/images/expert.svg"
@@ -418,7 +418,7 @@ export default function Home() {
                 </p>
               </span>
             </div>
-            <div className="mx-auto flex flex-row">
+            <div className="mx-auto flex flex-row justify-center">
               <img
                 className=""
                 src="/images/drivers.svg"
@@ -435,7 +435,7 @@ export default function Home() {
                 </p>
               </span>
             </div>
-            <div className="mx-auto flex flex-row">
+            <div className="mx-auto flex flex-row justify-center">
               <img
                 className=""
                 src="/images/career.svg"
@@ -459,7 +459,7 @@ export default function Home() {
           {/* row */}
 
           <div className="mx-auto">
-            <div className="flex flex-row">
+            <div className="flex flex-row justify-center">
               <img
                 className=""
                 src="/images/flexible.svg"
@@ -475,7 +475,7 @@ export default function Home() {
                 </p>
               </span>
             </div>
-            <div className="flex flex-row">
+            <div className="flex flex-row justify-center">
               <img
                 className=""
                 src="/images/interactive.svg"
@@ -491,7 +491,7 @@ export default function Home() {
                 </p>
               </span>
             </div>
-            <div className="flex flex-row">
+            <div className="flex flex-row justify-center">
               <img
                 className=""
                 src="/images/online.svg"
@@ -509,13 +509,12 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-10 mx-auto">
+          <div className="mt-10 mx-auto h-auto max-h-[380px] max-w-[380px]">
             <img
               className=""
               src="/images/choose.svg"
               alt="ui"
-              height="380px"
-              width="380px"
+              
             />
           </div>
         </div>
@@ -537,7 +536,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="flex flex-row">
+        <div className="lg:flex flex-row">
           <div className="border border-[#FFE722] text-black bg-white rounded-sm mx-auto w-[200px] mt-14">
             <img
               className=""
@@ -630,14 +629,14 @@ export default function Home() {
 
       <div id="testimonies" className="mt-10 text-center mx-auto">
         <h2 className="text-center text-[#773cde] font-bold">Testimonies</h2>
-        <p className=" font-bold text-lg text-black mt-6 w-[390px] mx-auto">
+        <p className=" font-bold text-lg text-black mt-6 lg:w-[390px] lg:mx-auto mx-20">
           Listen to the success stories straight from our vibrant community of
           current and former students.
         </p>
       </div>
       <div className=" text-black">
-        <div className="mx-auto flex flex-row mt-14">
-          <div className="mx-auto flex flex-row border border-[#D5C3F7] w-[280px]">
+        <div className="mx-auto lg:flex flex-row mt-14">
+          <div className="mx-auto lg:flex flex-row border mt-5 border-[#D5C3F7] w-[280px]">
             <div className="mx-2 mt-2 flex flex-row">
               <img
                 className="flex h-auto w-auto max-h-[40px] max-w-[40px]"
@@ -656,7 +655,7 @@ export default function Home() {
               </span>
             </div>
           </div>
-          <div className="mx-auto flex flex-row border border-[#D5C3F7] w-[280px]">
+          <div className="mx-auto flex flex-row border mt-5 border-[#D5C3F7] w-[280px]">
             <div className="mx-2 mt-2 flex flex-row">
               <img
                 className="flex h-auto w-auto max-h-[40px] max-w-[40px]"
@@ -675,7 +674,7 @@ export default function Home() {
               </span>
             </div>
           </div>
-          <div className="mx-auto flex flex-row border border-[#D5C3F7] w-[280px]">
+          <div className="mx-auto flex flex-row border border-[#D5C3F7] mt-5 w-[280px]">
             <div className="mx-2 mt-2 flex flex-row">
               <img
                 className="flex h-auto w-auto max-h-[40px] max-w-[40px]"
@@ -704,12 +703,12 @@ export default function Home() {
         {/* PAGE 7 */}
 
         <div className="bg-[#773CDE] text-white">
-          <div className="flex flex-row">
-            <div className="my-16 mx-auto">
-              <h3 className="text-lg font-bold">
+          <div className="lg:flex lg:flex-row">
+            <div className="lg:my-16 lg:mx-auto mx-20">
+              <h3 className="text-lg font-bold lg:pt-0 pt-5">
                 Ready to join us and elevate your career to new heights?
               </h3>
-              <div className="flex flex-row ml-28">
+              <div className="flex flex-row lg:ml-28 mx-auto justify-center">
                 <button className="flex items-center bg-[#FFE722] w-32 h-8 mt-[74px] rounded justify-center text-black font-normal text-sm">
                   Get Started
                 </button>
@@ -719,9 +718,9 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="mx-auto my-10 ">
+            <div className="mx-auto my-10 flex justify-center">
               <img
-                className="flex h-auto w-auto max-h-[260px] max-w-[270px]"
+                className="flex h-auto justify-center w-auto lg:max-h-[260px] lg:max-w-[270px]"
                 src="/images/ready.svg"
                 alt="ready"
               />
@@ -734,14 +733,14 @@ export default function Home() {
 
       <div id="blog" className="mt-20 text-center mx-auto text-black">
         <h2 className="text-center text-[#773cde] font-bold">Blog</h2>
-        <p className="font-bold text-lg text-black mt-6 mx-auto w-[390px]">
+        <p className="font-bold text-lg text-black mt-6 lg:mx-auto mx-20 lg:w-[390px]">
           Stay ahead of the curve. Great insights, tips and tutorials from our
           blog
         </p>
       </div>
 
-      <div className="mt-14 flex flex-row text-black text-left">
-        <div className="border border-[#804bf5] w-[250px] mx-auto">
+      <div className="mt-14 lg:flex lg:flex-row text-black text-left">
+        <div className="border border-[#804bf5] w-[250px] mx-auto mt-5">
           <img
             className="mx-auto mt-4 h-auto w-auto max-h-[200px] max-w-[200px]"
             src="/images/demy.svg"
@@ -760,7 +759,7 @@ export default function Home() {
           </p>
           <p className="text-[#773CDE] text-xs ml-4 my-4">Learn more &gt; </p>
         </div>
-        <div className="border border-[#804bf5] w-[250px] mx-auto">
+        <div className="border border-[#804bf5] w-[250px] mx-auto mt-5">
           <img
             className="mx-auto mt-4 h-auto w-auto max-h-[200px] max-w-[200px]"
             src="/images/fro.svg"
@@ -780,7 +779,7 @@ export default function Home() {
           </p>
           <p className="text-[#773CDE] text-xs ml-4 my-4">Learn more &gt; </p>
         </div>
-        <div className="border border-[#804bf5] w-[250px] mx-auto">
+        <div className="border border-[#804bf5] w-[250px] mx-auto mt-5">
           <img
             className="mx-auto mt-4 h-auto w-auto max-h-[200px] max-w-[200px]"
             src="/images/emerge.svg"
