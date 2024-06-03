@@ -549,13 +549,19 @@ export default function Home() {
               Senior Marketing Manager
             </p>
             <p className="mx-4 mt-2 text-xs font-light">Years of Exp. 10</p>
-            <img
-              className="ml-4 mt-2"
-              src="/images/facebook.svg"
-              alt="p3"
-              height="24px"
-              width="24px"
-            />
+            <div className="flex flex-row my-2 justify-end mr-4">
+              <img className="w-5 h-5" src="/images/f.svg" alt="facebook" />
+              <img
+                className="ml-2 w-5 h-5"
+                src="/images/tw.svg"
+                alt="twitter"
+              />
+              <img
+                className="ml-2 w-5 h-5"
+                src="/images/l.svg"
+                alt="linkedin"
+              />
+            </div>
           </div>
           <div className="border border-[#FFE722] text-black bg-white rounded-lg mx-5 lg:mx-auto lg:w-[200px] mt-14">
             <img
@@ -568,13 +574,19 @@ export default function Home() {
               Senior Marketing Manager
             </p>
             <p className="mx-4 mt-2 text-xs font-light">Years of Exp. 10</p>
-            <img
-              className="mt-2 ml-4"
-              src="/images/facebook.svg"
-              alt="p3"
-              height="24px"
-              width="24px"
-            />
+            <div className="flex flex-row my-2 justify-end mr-4">
+              <img className="w-5 h-5" src="/images/f.svg" alt="facebook" />
+              <img
+                className="ml-2 w-5 h-5"
+                src="/images/tw.svg"
+                alt="twitter"
+              />
+              <img
+                className="ml-2 w-5 h-5"
+                src="/images/l.svg"
+                alt="linkedin"
+              />
+            </div>
           </div>
           <div className="border border-[#FFE722] text-black bg-white rounded-lg lg:mx-auto mx-5 lg:w-[200px] mt-14">
             <img
@@ -585,13 +597,19 @@ export default function Home() {
             <h3 className="ml-4 mt-4 text-sm font-bold">Robert Fox</h3>
             <p className="ml-4 mt-2 text-xs font-light">Software Developer</p>
             <p className="mx-4 mt-2 text-xs font-light">Years of Exp. 15</p>
-            <img
-              className="ml-4 mt-2"
-              src="/images/facebook.svg"
-              alt="p3"
-              height="24px"
-              width="24px"
-            />
+            <div className="flex flex-row my-2 justify-end mr-4">
+              <img className="w-5 h-5" src="/images/f.svg" alt="facebook" />
+              <img
+                className="ml-2 w-5 h-5"
+                src="/images/tw.svg"
+                alt="twitter"
+              />
+              <img
+                className="ml-2 w-5 h-5"
+                src="/images/l.svg"
+                alt="linkedin"
+              />
+            </div>
           </div>
           <div className="border border-[#FFE722] text-black bg-white rounded-lg lg:mx-auto mx-5 lg:w-[200px] mt-14">
             <img
@@ -602,13 +620,19 @@ export default function Home() {
             <h3 className="ml-4 mt-4 text-sm font-bold">Bolanle Adams</h3>
             <p className="ml-4 mt-2 text-xs font-light">Senior UX Strategist</p>
             <p className="mx-4 mt-2 text-xs font-light">Years of Exp. 5</p>
-            <img
-              className="mt-2 ml-4"
-              src="/images/facebook.svg"
-              alt="p3"
-              height="24px"
-              width="24px"
-            />
+            <div className="flex flex-row my-2 justify-end mr-4">
+              <img className="w-5 h-5" src="/images/f.svg" alt="facebook" />
+              <img
+                className="ml-2 w-5 h-5"
+                src="/images/tw.svg"
+                alt="twitter"
+              />
+              <img
+                className="ml-2 w-5 h-5"
+                src="/images/l.svg"
+                alt="linkedin"
+              />
+            </div>
           </div>
         </div>
         <div className="flex justify-center items-center mt-14">

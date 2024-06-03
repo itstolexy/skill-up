@@ -1,4 +1,4 @@
-import Image from "next/image";
+import img from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -10,7 +10,7 @@ function Footer() {
           <div className="text-white mx-auto">
             <Link href="/">
               <div className="flex flex-row pt-10 lg:mx-auto">
-                <Image
+                <img
                   className=""
                   src="/images/foot.svg"
                   alt="Castle-Lite"
@@ -29,10 +29,7 @@ function Footer() {
 
             {/* FORM */}
             <div className="my-2 sm:w-full">
-              <form
-                action="https://formspree.io/f/odusanyaomotola64@gmail.com"
-                method="post"
-              >
+              <form action="https://formspree.io/f/mnqygwdr" method="post">
                 <input
                   className="text-sm rounded border-t border-l border-b rounded-r-none"
                   type="text"
@@ -87,23 +84,11 @@ function Footer() {
             </p>
 
             <div className="flex flex-row mt-10 mx-auto">
-              <Image
-                className=""
-                src="/images/phone.jpg"
-                alt="phone"
-                width={24}
-                height={2}
-              />
+              <img className="w-5 h-5" src="/images/phone.svg" alt="phone" />
               <h1 className="flex text-white text-xs ml-2">+2348142597680</h1>
             </div>
             <div className="flex flex-row mt-2 mx-auto">
-              <Image
-                className=""
-                src="/images/phone.jpg"
-                alt="phone"
-                width={24}
-                height={2}
-              />
+              <img className="w-5 h-5" src="/images/mail.svg" alt="mail" />
               <h1 className="flex text-white text-xs ml-2">
                 odusanyaomotola64@gmail.com
               </h1>
@@ -111,26 +96,20 @@ function Footer() {
             <div className="hidden lg:flex flex-col mt-10 pb-16">
               <p className="text-base font-light">Socials</p>
               <div className="flex flex-row mt-2">
-                <Image
-                  className=""
-                  src="/images/phone.jpg"
-                  alt="phone"
-                  width={24}
-                  height={2}
+                <img
+                  className="w-5 h-5"
+                  src="/images/facebook.svg"
+                  alt="facebook"
                 />
-                <Image
-                  className="ml-2"
-                  src="/images/phone.jpg"
-                  alt="phone"
-                  width={24}
-                  height={2}
+                <img
+                  className="ml-2 w-5 h-5"
+                  src="/images/twitter.svg"
+                  alt="twitter"
                 />
-                <Image
-                  className="ml-2"
-                  src="/images/phone.jpg"
-                  alt="phone"
-                  width={24}
-                  height={2}
+                <img
+                  className="ml-2 w-5 h-5"
+                  src="/images/linkedin.svg"
+                  alt="linkedin"
                 />
               </div>
             </div>
@@ -140,26 +119,20 @@ function Footer() {
           <div className="mt-10 pb-16">
             <p className="text-base font-light">Socials</p>
             <div className="flex flex-row mt-2">
-              <Image
-                className=""
-                src="/images/phone.jpg"
-                alt="phone"
-                width={24}
-                height={2}
+              <img
+                className="w-5 h-5"
+                src="/images/facebook.svg"
+                alt="facebook"
               />
-              <Image
-                className="ml-2"
-                src="/images/phone.jpg"
-                alt="phone"
-                width={24}
-                height={2}
+              <img
+                className="ml-2 w-5 h-5"
+                src="/images/twitter.svg"
+                alt="twitter"
               />
-              <Image
-                className="ml-2"
-                src="/images/phone.jpg"
-                alt="phone"
-                width={24}
-                height={2}
+              <img
+                className="ml-2 w-5 h-5"
+                src="/images/linkedin.svg"
+                alt="linkedin"
               />
             </div>
           </div>
