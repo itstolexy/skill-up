@@ -31,7 +31,7 @@ function Footer() {
             <div className="my-2 sm:w-full">
               <form action="https://formspree.io/f/mnqygwdr" method="post">
                 <input
-                  className="text-sm rounded border-t border-l border-b rounded-r-none"
+                  className="text-sm rounded border-t border-l border-b rounded-r-none p-1"
                   type="text"
                   id="email"
                   name="email"
@@ -40,7 +40,7 @@ function Footer() {
                   required
                 />
                 <input
-                  className="bg-[#773CD2] border-t border-r border-b rounded rounded-l-none text-sm text-center items-center lg:w-20 cursor-pointer h-auto"
+                  className="bg-[#773CD2] p-1 border-t border-r border-b rounded rounded-l-none text-sm text-center items-center lg:w-20 cursor-pointer h-auto"
                   type="submit"
                   value="Join now"
                 />
