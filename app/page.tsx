@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className=" overflow-y-hidden">
       {/* PAGE 1 */}
 
       <div className="bg-[#773CD2]">
@@ -402,7 +402,7 @@ export default function Home() {
 
       <div id="about" className=" mt-14 text-center mx-auto text-black">
         <h2 className="text-center text-[#773cde] font-bold">Why Choose Us?</h2>
-        <p className="font-bold text-lg text-black mt-5 mx-auto w-[390px]">
+        <p className="font-bold text-lg text-black mt-5 mx-auto lg:w-[390px] w-auto">
           From cutting-edge courses to expert-led instructions, empower yourself
           at <span className="text-[#773CD2]">Skill Up</span>
         </p>
@@ -646,7 +646,7 @@ export default function Home() {
 
       <div id="testimonies" className="mt-10 text-center mx-auto">
         <h2 className="text-center text-[#773cde] font-bold">Testimonies</h2>
-        <p className=" font-bold text-lg text-black mt-6 w-[390px] mx-auto">
+        <p className=" font-bold text-lg text-black mt-6 lg:w-[390px] w-auto mx-auto">
           Listen to the success stories straight from our vibrant community of
           current and former students.
         </p>
