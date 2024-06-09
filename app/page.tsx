@@ -417,14 +417,14 @@ export default function Home() {
                 width="16px"
               />
               <span className="text-left mt-14 ml-2">
-                <h3 className="text-sm font-bold lg:mt-0 -mt-4">Expert Instructors</h3>
+                <h3 className="text-sm font-bold">Expert Instructors</h3>
                 <p className="mt-2 text-xs lg:lg:w-64 w-auto">
                   Learn from industry professionals and leading experts wth
                   hands-on experience in the latest technologies and trends
                 </p>
               </span>
             </div>
-            <div className="mx-auto flex flex-row justify-center">
+            <div className="mx-auto flex flex-row">
               <img
                 className=""
                 src="/images/drivers.svg"
@@ -441,7 +441,7 @@ export default function Home() {
                 </p>
               </span>
             </div>
-            <div className="mx-auto flex flex-row justify-center">
+            <div className="mx-auto flex flex-row">
               <img
                 className=""
                 src="/images/career.svg"
@@ -465,7 +465,7 @@ export default function Home() {
           {/* row */}
 
           <div className="mx-5 lg:mx-10">
-            <div className="flex flex-row justify-center">
+            <div className="flex flex-row">
               <img
                 className=""
                 src="/images/flexible.svg"
@@ -474,7 +474,7 @@ export default function Home() {
                 width="16px"
               />
               <span className="text-left mt-14 ml-2">
-                <h3 className="text-sm font-bold">Flexible Learning Options</h3>
+                <h3 className="text-sm font-bold lg:mt-0">Flexible Learning Options</h3>
                 <p className="mt-2 text-xs lg:w-64">
                   From self-paced courses, live online classes, and personalized
                   learning paths to fit your schedule and learning preferences
@@ -490,14 +490,14 @@ export default function Home() {
                 width="16px"
               />
               <span className="text-left mt-14 ml-2">
-                <h3 className="text-sm font-bold lg:mt-0 -mt-4">Interactive Learning</h3>
+                <h3 className="text-sm font-bold">Interactive Learning</h3>
                 <p className="mt-2 text-xs lg:w-64">
                   Engage with interactive lessons, practical exercises. and
                   real-world projects to reinforce your understanding and skills
                 </p>
               </span>
             </div>
-            <div className="flex flex-row justify-center">
+            <div className="flex flex-row">
               <img
                 className=""
                 src="/images/online.svg"
@@ -506,7 +506,7 @@ export default function Home() {
                 width="16px"
               />
               <span className="text-left mt-14 ml-2">
-                <h3 className="text-sm font-bold lg:mt-0 -mt-4">Online Community</h3>
+                <h3 className="text-sm font-bold">Online Community</h3>
                 <p className="mt-2 text-xs lg:w-64">
                   Learn from industry professionals and leading experts wth
                   hands-on experience in the latest technologies and trends
@@ -515,7 +515,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-10 mx-10 h-auto max-h-[380px] max-w-[380px]">
+          <div className="mt-10 mx-auto lg:mx-10  h-auto max-h-[380px] max-w-[380px]">
             <img className="lg:mx-auto" src="/images/choose.svg" alt="ui" />
           </div>
         </div>
