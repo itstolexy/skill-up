@@ -413,11 +413,11 @@ export default function Home() {
                 className=""
                 src="/images/expert.svg"
                 alt="ui"
-                height="16px"
+                
                 width="16px"
               />
-              <span className="text-left mt-14 ml-2">
-                <h3 className="text-sm font-bold">Expert Instructors</h3>
+              <span className="text-left mt-10 ml-2">
+                <h3 className="text-sm font-bold lg:mt-4">Expert Instructors</h3>
                 <p className="mt-2 text-xs lg:lg:w-64 w-auto">
                   Learn from industry professionals and leading experts wth
                   hands-on experience in the latest technologies and trends
@@ -489,8 +489,8 @@ export default function Home() {
                 height="16px"
                 width="16px"
               />
-              <span className="text-left mt-14 ml-2">
-                <h3 className="text-sm font-bold">Interactive Learning</h3>
+              <span className="text-left mt-10 ml-2">
+                <h3 className="text-sm font-bold lg:mt-4">Interactive Learning</h3>
                 <p className="mt-2 text-xs lg:w-64">
                   Engage with interactive lessons, practical exercises. and
                   real-world projects to reinforce your understanding and skills
@@ -506,7 +506,7 @@ export default function Home() {
                 width="16px"
               />
               <span className="text-left mt-14 ml-2">
-                <h3 className="text-sm font-bold">Online Community</h3>
+                <h3 className="text-sm font-bold lg:mt-0 -mt-4">Online Community</h3>
                 <p className="mt-2 text-xs lg:w-64">
                   Learn from industry professionals and leading experts wth
                   hands-on experience in the latest technologies and trends
