@@ -406,9 +406,9 @@ export default function Home() {
           From cutting-edge courses to expert-led instructions, empower yourself
           at <span className="text-[#773CD2]">Skill Up</span>
         </p>
-        <div className="lg:flex lg:flex-row">
-          <div className="mx-auto">
-            <div className="lg:mx-auto flex flex-row justify-center">
+        <div className="lg:flex lg:flex-row lg:justify-center">
+          <div className="mx-5">
+            <div className="flex flex-row">
               <img
                 className=""
                 src="/images/expert.svg"
@@ -417,8 +417,8 @@ export default function Home() {
                 width="16px"
               />
               <span className="text-left mt-14 ml-2">
-                <h3 className="text-sm font-bold">Expert Instructors</h3>
-                <p className="mt-2 text-xs w-64">
+                <h3 className="text-sm font-bold lg:mt-0 -mt-4">Expert Instructors</h3>
+                <p className="mt-2 text-xs lg:lg:w-64 w-auto">
                   Learn from industry professionals and leading experts wth
                   hands-on experience in the latest technologies and trends
                 </p>
@@ -434,7 +434,7 @@ export default function Home() {
               />
               <span className="text-left mt-14 ml-2">
                 <h3 className="text-sm font-bold">Divers Course Catalog</h3>
-                <p className="mt-2 text-xs w-64">
+                <p className="mt-2 text-xs lg:w-64">
                   Explore a wide range of courses covering everything from
                   programming languages and software development to
                   cybersecurity, etc.
@@ -453,7 +453,7 @@ export default function Home() {
                 <h3 className="text-sm font-bold">
                   Career Advancement Support
                 </h3>
-                <p className="mt-2 text-xs w-64">
+                <p className="mt-2 text-xs lg:w-64">
                   Access career resources, job placement assistance, and
                   networking opportunities to help you succeed in your tech
                   careerjourney
@@ -464,7 +464,7 @@ export default function Home() {
 
           {/* row */}
 
-          <div className="mx-auto">
+          <div className="mx-5 lg:mx-10">
             <div className="flex flex-row justify-center">
               <img
                 className=""
@@ -475,13 +475,13 @@ export default function Home() {
               />
               <span className="text-left mt-14 ml-2">
                 <h3 className="text-sm font-bold">Flexible Learning Options</h3>
-                <p className="mt-2 text-xs w-64">
+                <p className="mt-2 text-xs lg:w-64">
                   From self-paced courses, live online classes, and personalized
                   learning paths to fit your schedule and learning preferences
                 </p>
               </span>
             </div>
-            <div className="flex flex-row justify-center">
+            <div className="flex flex-row">
               <img
                 className=""
                 src="/images/interactive.svg"
@@ -490,8 +490,8 @@ export default function Home() {
                 width="16px"
               />
               <span className="text-left mt-14 ml-2">
-                <h3 className="text-sm font-bold">Interactive Learning</h3>
-                <p className="mt-2 text-xs w-64">
+                <h3 className="text-sm font-bold lg:mt-0 -mt-4">Interactive Learning</h3>
+                <p className="mt-2 text-xs lg:w-64">
                   Engage with interactive lessons, practical exercises. and
                   real-world projects to reinforce your understanding and skills
                 </p>
@@ -506,8 +506,8 @@ export default function Home() {
                 width="16px"
               />
               <span className="text-left mt-14 ml-2">
-                <h3 className="text-sm font-bold">Online Community</h3>
-                <p className="mt-2 text-xs w-64">
+                <h3 className="text-sm font-bold lg:mt-0 -mt-4">Online Community</h3>
+                <p className="mt-2 text-xs lg:w-64">
                   Learn from industry professionals and leading experts wth
                   hands-on experience in the latest technologies and trends
                 </p>
@@ -515,7 +515,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-10 mx-auto h-auto max-h-[380px] max-w-[380px]">
+          <div className="mt-10 mx-10 h-auto max-h-[380px] max-w-[380px]">
             <img className="lg:mx-auto" src="/images/choose.svg" alt="ui" />
           </div>
         </div>
@@ -646,7 +646,7 @@ export default function Home() {
 
       <div id="testimonies" className="mt-10 text-center mx-auto">
         <h2 className="text-center text-[#773cde] font-bold">Testimonies</h2>
-        <p className=" font-bold text-lg text-black mt-6 lg:w-[390px] lg:mx-auto mx-20">
+        <p className=" font-bold text-lg text-black mt-6 w-[390px] mx-auto">
           Listen to the success stories straight from our vibrant community of
           current and former students.
         </p>
