@@ -36,6 +36,7 @@ function Footer() {
                   id="email"
                   name="email"
                   value=""
+                  autoComplete="email"
                   placeholder="enter your email"
                   required
                 />
