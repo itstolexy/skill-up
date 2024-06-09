@@ -32,7 +32,7 @@ function Footer() {
               <form action="https://formspree.io/f/mnqygwdr" method="post">
                 <input
                   className="text-sm rounded border-t border-l border-b rounded-r-none p-1"
-                  type="text"
+                  type="email"
                   id="email"
                   name="email"
                   value=""
