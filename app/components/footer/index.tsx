@@ -139,9 +139,10 @@ function Footer() {
           </div>
         </div>
       </div>
-      <span className="text-sm font-light text-[#773CD2] ml-auto flex items-center justify-center">
-        &copy; 2024 Omotola Odusanya
-      </span>
+
+      <span className="text-sm font-semibold text-[#773CD2] flex items-center justify-center">
+      <p className="my-5">&copy; 2024 Omotola Odusanya. All rights reserved</p>
+    </span>
     </>
   );
 }
