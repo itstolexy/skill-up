@@ -4,6 +4,7 @@ import Image from "next/image";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import Link from "next/link";
+import CoursesSection from "./components/coursesection";
 
 export default function Home() {
   return (
@@ -135,139 +136,16 @@ export default function Home() {
 
       {/* PAGE 2 */}
 
-      <div className="mt-10 text-center mx-auto">
+      <section className="mt-10 text-center mx-auto">
         <h2 className="text-center text-[#773cde] font-bold">Top Programs</h2>
         <p className=" font-bold text-lg text-black mt-6 mx-20">
           Explore our top programs to expand our career opportunities
         </p>
-
-        <div className="text-black mt-14 lg:flex lg:flex-row justify-center">
-          <div className="border border-[#773CD2] mt-5 lg:w-[250px] mx-5">
-            <img
-              className="ml-4 mt-4"
-              src="/images/ui.svg"
-              alt="ui"
-              height="16px"
-              width="16px"
-            />
-            <span className="text-left">
-              <h3 className="ml-4 mt-4 text-sm font-bold">UI/UX</h3>
-              <p className="ml-4 mt-4 text-xs">
-                Craft seamless digital experiences with our UI/UX courses.
-              </p>
-              <p className="text-[#773CDE] text-xs ml-4 my-4">
-                Learn more &gt;{" "}
-              </p>
-            </span>
-          </div>
-          <div className="border border-[#773CD2] lg:w-[250px] mt-5 lg:ml-10 mx-5">
-            <img
-              className="ml-4 mt-4"
-              src="/images/mad.svg"
-              alt="mad"
-              height="16px"
-              width="16px"
-            />
-            <span className="text-left">
-              <h3 className="ml-4 mt-4 text-sm font-bold">
-                Mobile App Devlopment
-              </h3>
-              <p className="ml-4 mt-4 text-xs">
-                Master mobile app development & unleash your creativity on iOS &
-                Android platforms
-              </p>
-              <p className="text-[#773CDE] text-xs ml-4 my-4">
-                Learn more &gt;{" "}
-              </p>
-            </span>
-          </div>
-          <div className="border border-[#773CD2] mt-5 lg:w-[250px] mx-5 lg:ml-10">
-            <img
-              className="ml-4 mt-4"
-              src="/images/vid.svg"
-              alt="vid"
-              height="16px"
-              width="16px"
-            />
-            <span className="text-left">
-              <h3 className="ml-4 lg:mt-4 mt-5 text-sm font-bold">
-                Videography
-              </h3>
-              <p className="ml-4 mt-4 text-xs">
-                Cutting-edge videography lessons embracing the latest
-                development
-              </p>
-              <p className="text-[#773CDE] text-xs ml-4 my-4">
-                Learn more &gt;{" "}
-              </p>
-            </span>
-          </div>
-        </div>
-        <div className="text-black lg:mt-10 mt-5 lg:flex lg:flex-row justify-center">
-          <div className="border border-[#773CD2] mt-5 lg:w-[250px] mx-5">
-            <img
-              className="ml-4 mt-4"
-              src="/images/ai.svg"
-              alt="ai"
-              height="16px"
-              width="16px"
-            />
-            <span className="text-left">
-              <h3 className="ml-4 mt-5 text-sm font-bold">
-                AI & Machine Learning
-              </h3>
-              <p className="ml-4 mt-4 text-xs">
-                Unleash the power of AI & Machine learning with our expert-led
-                courses
-              </p>
-              <p className="text-[#773CDE] text-xs ml-4 my-4">
-                Learn more &gt;{" "}
-              </p>
-            </span>
-          </div>
-          <div className="border border-[#773CD2] lg:w-[250px] lg:ml-10 mx-5 mt-5">
-            <img
-              className="ml-4 mt-4"
-              src="/images/mar.svg"
-              alt="mar"
-              height="16px"
-              width="16px"
-            />
-            <span className="text-left">
-              <h3 className="ml-4 mt-4 text-sm font-bold">Digital Marketing</h3>
-              <p className="ml-4 mt-4 text-xs">
-                Dominate the digital landscape with our comprehensive courses.
-              </p>
-              <p className="text-[#773CDE] text-xs ml-4 my-4">
-                Learn more &gt;{" "}
-              </p>
-            </span>
-          </div>
-          <div className="border border-[#773CD2] lg:w-[250px] mt-5 mx-5 lg:ml-10">
-            <img
-              className="ml-4 mt-4"
-              src="/images/iot.svg"
-              alt="iot"
-              height="16px"
-              width="16px"
-            />
-            <span className="text-left">
-              <h3 className="ml-4 mt-4 text-sm font-bold">
-                Internet of Things (IoT)
-              </h3>
-              <p className="ml-4 mt-4 text-xs">
-                Enter the realm of IoT innovation with our cutting-edge courses.
-              </p>
-              <p className="text-[#773CDE] text-xs ml-4 my-4">
-                Learn more &gt;{" "}
-              </p>
-            </span>
-          </div>
-        </div>
+        <CoursesSection />
         <button className="text-center items-center justify-center rounded-lg w-36 h-8 bg-[#773cde] text-white text-xs mt-10">
           Explore all courses
         </button>
-      </div>
+      </section>
 
       {/* PAGE 3 */}
 
