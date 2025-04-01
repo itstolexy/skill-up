@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <div className="lg:flex lg:flex-row mt-20">
+    <div className="lg:flex lg:flex-row mt-10 lg:mt-20">
       <div className="text-white lg:mx-auto mx-5">
         <h1 className="font-bold text-2xl lg:w-[400px]">
           Unlock Your Potential with{" "}
